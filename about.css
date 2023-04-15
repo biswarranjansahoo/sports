@@ -1,0 +1,325 @@
+/*
+Template Name:lawyers
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+/********************* about_main ****************/
+#about_main{ 
+ background-image: url(../img/24.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:220px;
+ padding-bottom:180px;
+ }
+.about_main_1{ 
+ background-color: #736026b8;
+ padding: 5px 10px 25px 10px;
+ width: 25%;
+ text-align: center;
+ }
+.about_main_1 h2{ 
+ color:#fff;
+ }
+.about_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.about_main_1 i{ 
+ color:#fff;
+ }
+.about_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* about_main_end ****************/
+/********************* about ****************/
+#about{ 
+ padding-top:30px;
+ padding-bottom:0px;
+ }
+.about_2{ 
+ padding-top:100px;
+ }
+.about_2 h1{ 
+ color: #bb9e2f;
+ padding-left: 25px;
+ }
+.about_3{ 
+ padding-top:25px;
+ }
+.about_3 p{ 
+ font-size: 25px;
+ letter-spacing: 2px;
+ color: #999;
+ padding-top: 100px;
+ }
+.about_3 h2{ 
+ margin-top:0px;
+ font-weight: bold;
+ letter-spacing: 2px;
+ }
+.about_4 p{  
+ color:#999;
+ padding-bottom:20px;
+ }
+.about_4 i{  
+ padding-right:10px;
+ }
+.about_4 a i{  
+ font-size:30px;
+ color: #736026;
+ }
+.well_1{  
+ font-size:30px;
+ color: #dfc370;
+ }
+.about_4 li{  
+ font-size: 20px;
+ color: #999;
+ border-bottom: 1px solid #dedddd;
+ line-height: 50px;
+ }
+.about_4 ul{  
+ border: 1px solid #dedddd;
+ padding: 20px;
+ box-shadow: 0 0 2px black;
+ }
+/********************* about_end ****************/
+/********************* our ****************/
+#our{ 
+ background: url(../img/5.jpg);
+ background-attachment: fixed;
+ }
+.our_main{ 
+ padding-top:70px;
+ padding-bottom:100px;
+ background-color: #0000008f;
+ }
+.our_1{ 
+ text-align:center;
+ }
+.our_1 h4{ 
+ color: #b9b7b7;
+ }
+.our_1 h2{ 
+ color: #fff;
+ padding-bottom:100px;
+ }
+.our_main_1{ 
+ background-color:#fff;
+ text-align:center;
+ padding: 40px 30px 50px 30px;
+ position:relative;
+ }
+.our_3 h2{ 
+ color: #736026;
+ }
+.our_4{ 
+ position: absolute;
+ top: -18%;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ }
+.our_4 i{ 
+ background-color: #736026;
+ font-size: 40px;
+ padding: 20px;
+ border-radius: 50%;
+ color: #fff;
+ }
+/********************* our_end ****************/
+/********************* tannery ****************/
+#tannery{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+.tannery_1{ 
+ text-align:center;
+ }
+.tannery_1 h2{ 
+ color: #000;
+ padding-bottom: 10px;
+ }
+.tannery_1 p{ 
+ padding-bottom: 10px;
+ }
+.tannery_2 p{ 
+ padding-bottom:30px;
+ } 
+#tannery .ziehharmonika h3 {
+ background: #736026;
+ color: #fff;
+ text-align: left;
+ border-radius: 4px;
+ padding: 14px 12px;
+ cursor: pointer;
+ margin-top: 0;
+ margin-bottom: 9px;
+ padding-right: 40px;
+ transition: 0.25s all;
+ position: relative;
+ font-size: 24px;
+}
+#tannery .ziehharmonika h3.active {
+ margin-bottom: 21px;
+ background: #bd9d3a;
+}
+#tannery .ziehharmonika h3::before {
+	content: attr(data-prefix);
+	font-size: 18px;
+	margin-right: 9px;
+}
+#tannery .ziehharmonika h3.alignLeft {
+	padding-left: 35px;
+}
+#tannery .ziehharmonika > div {
+	display: none;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid #cdcdcd;
+	text-align: left;
+	padding: 31px 33px;
+	margin-bottom: 9px;
+}
+#tannery .ziehharmonika .arrowDown {
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 13.0px 7.5px 0 7.5px;
+ border-color: #bd9d3a transparent transparent transparent;
+ position: absolute;
+ bottom: 0;
+ left: 40px;
+ transition: 0.25s all;
+ opacity: 0;
+}
+#tannery .ziehharmonika .collapseIcon {
+	position: absolute;
+	right: 20px;
+	top: 45%;
+	font-size: 25px;
+	font-weight: 300;
+	-ms-transform: translate(0, -50%);
+	    transform: translate(0, -50%);
+}
+#tannery .ziehharmonika .collapseIcon.alignLeft {
+	right: initial;
+	left: 20px;
+}
+#tannery .ziehharmonika .active .arrowDown {
+ bottom: -13px;
+ border-color: #bd9d3a transparent transparent transparent;
+ opacity: 1;
+}
+/********************* tannery_end ****************/
+
+
+
+
+
+
+
+@media screen and (max-width : 767px){
+#about_main {
+ padding-top: 80px;
+ padding-bottom:100px;
+}
+.about_main_1 {
+ width: 100%;
+}
+.about_2 {
+ padding-top: 0px;
+}
+#about {
+ padding-top: 0px;
+ text-align: center;
+}
+.about_3 p {
+ padding-top: 0px;
+}
+.about_2 h1 {
+ padding-left: 0px;
+}
+.about_3 {
+ padding-top: 0px;
+}
+#our {
+ text-align: center;
+}
+.our_main {
+ padding-top: 50px;
+ padding-bottom:0px;
+}
+.our_main_1 {
+ margin-bottom: 70px;
+}
+.our_3 h2 {
+ font-size: 30px;
+}
+#tannery {
+ text-align: center;
+}
+.tannery_2 p {
+ padding-bottom: 15px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+}
+
+@media (min-width:470px) and (max-width:767px) { 
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.about_main_1 {
+ width: 55%;
+}
+.about_2 h1 {
+ padding-left: 0px;
+ font-size: 75px;
+}
+.about_2 {
+ padding-top: 10px;
+}
+.about_3 p {
+ padding-top: 0px;
+}
+.about_4 li {
+ font-size: 19px;
+ line-height: 40px;
+}
+.our_3 h2 {
+ font-size: 30px;
+}
+} 
+ 
+@media (min-width:961px) and (max-width:1200px) {
+.about_main_1 {
+ width: 55%;
+}
+.about_2 h1 {
+ padding-left: 0px;
+ font-size: 75px;
+}
+.about_2 {
+ padding-top: 10px;
+}
+.about_3 p {
+ padding-top: 0px;
+}
+.about_4 li {
+ font-size: 19px;
+ line-height: 40px;
+}
+.our_3 h2 {
+ font-size: 30px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

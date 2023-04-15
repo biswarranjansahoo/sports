@@ -1,0 +1,161 @@
+/*
+Template Name:lawyers
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+/********************* contact_main ****************/
+#contact_main{ 
+ background-image: url(../img/50.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:220px;
+ padding-bottom:180px;
+ }
+.contact_main_1{ 
+ background-color: #736026b8;
+ padding: 5px 10px 25px 10px;
+ width: 25%;
+ text-align: center;
+ }
+.contact_main_1 h2{ 
+ color:#fff;
+ }
+.contact_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.contact_main_1 i{ 
+ color:#fff;
+ }
+.contact_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* contact_main_end ****************/
+/********************* exercise ****************/
+#exercise{ 
+ padding-top:30px;
+ padding-bottom:50px;
+ }
+.exercise_1 h2 {
+ font-weight: bold;
+ color: #000;
+ margin-top:0px;
+ padding-bottom:10px;
+}
+.exercise_1 p {
+ font-size: 18px;
+ color: #999;
+ padding-bottom: 20px;
+ border-bottom:1px solid #f1f1f1;
+ margin-bottom:20px;
+}
+.exercise_2 i{
+ font-size:18px;
+ color:#000;
+ padding-bottom:10px;
+ padding-right:15px;
+}
+.exercise_2 p{
+ font-size:18px;
+ color: #54595f;
+ padding-bottom:10px;
+}
+.exercise_2 p a{
+ font-size:18px;
+ color: #54595f;
+}
+.exercise_2 p a:hover{
+ color: #000;
+}
+.exercise_3 h2 {
+ font-weight: bold;
+ color: #000;
+ margin-top:0px;
+ padding-bottom:10px;
+}
+.exercise_4 input {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-bottom: 10px;
+ width: 98%;
+ border-bottom:1px solid #999!important;
+}
+.exercise_5 textarea {
+    height: 155px;
+    width: 100%;
+	border-bottom:1px solid #999!important;
+}
+#exercise .form-control{ 
+ border:none;
+ -webkit-box-shadow:none;
+ box-shadow:none;
+ -webkit-transition:none;
+ transition:none;
+ font-size:18px;
+ }
+.exercise_6 p{
+ padding-top:30px;
+}
+/********************* exercise_end ****************/
+
+
+
+
+
+
+
+@media screen and (max-width : 767px){
+#contact_main {
+ padding-top: 80px;
+ padding-bottom: 100px;
+}
+.contact_main_1 {
+ width: 100%;
+}
+#exercise {
+ padding-top: 20px;
+ padding-bottom: 50px;
+ text-align: center;
+}
+.exercise_1 h2 {
+ font-size: 44px;
+}
+}
+
+@media (min-width:470px) and (max-width:767px) { 
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.contact_main_1 {
+ width: 55%;
+}
+.exercise_2 p {
+ font-size: 14px;
+ padding-bottom:2px;
+}
+.exercise_2 p a {
+ font-size: 14px;
+}
+} 
+ 
+@media (min-width:961px) and (max-width:1200px) {
+.contact_main_1 {
+ width: 55%;
+}
+.exercise_2 p {
+ font-size: 14px;
+ padding-bottom:2px;
+}
+.exercise_2 p a {
+ font-size: 14px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

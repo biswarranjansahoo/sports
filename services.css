@@ -1,0 +1,116 @@
+/*
+Template Name:lawyers
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+/********************* services_main ****************/
+#services_main{ 
+ background-image: url(../img/26.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:220px;
+ padding-bottom:180px;
+ }
+.services_main_1{ 
+ background-color: #736026b8;
+ padding: 5px 10px 25px 10px;
+ width: 25%;
+ text-align: center;
+ }
+.services_main_1 h2{ 
+ color:#fff;
+ }
+.services_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.services_main_1 i{ 
+ color:#fff;
+ }
+.services_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* services_main_end ****************/
+/********************* product ****************/
+#product{ 
+ padding-top:40px;
+ padding-bottom: 30px;
+ }
+.product_2 img{ 
+ border-radius: 0px 160px 0px 120px;
+ }
+.product_3 h2{ 
+ text-align:center;
+ padding-top:10px;
+ padding-bottom:5px;
+ color: #736026;
+ }
+.product_3 h4{ 
+ text-align:center;
+ color:#999;
+ padding-bottom:5px;
+ }
+.product_3 p{ 
+ text-align:center;
+ padding-bottom:10px;
+ }
+.product_main{ 
+ box-shadow: 0 0 2px black;
+ padding: 10px;
+ margin-bottom:10px;
+ }
+/********************* product_end ****************/
+
+
+
+
+
+
+
+@media screen and (max-width : 767px){
+#services_main {
+ padding-top: 80px;
+ padding-bottom: 100px;
+}
+.services_main_1 {
+ width: 100%;
+}
+#product {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+.product_3 h2 {
+ font-size: 40px;
+}
+}
+
+@media (min-width:470px) and (max-width:767px) { 
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.services_main_1 {
+ width: 55%;
+}
+.product_3 h2 {
+ font-size: 28px;
+}
+} 
+ 
+@media (min-width:961px) and (max-width:1200px) {
+.services_main_1 {
+ width: 55%;
+}
+.product_3 h2 {
+ font-size: 28px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}
